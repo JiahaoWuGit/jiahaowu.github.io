@@ -2,5 +2,6 @@ theme: jekyll-theme-minimal
 title: Jiahao Wu
 description: Postdoctoral fellow at PolyU working on data-efficient AI, recommendation, reinforcement learning, and AI safety.
 url: https://jiahaowugit.github.io
+baseurl: /jiahaowu.github.io
 author: Jiahao Wu
 image: /og.png
