@@ -646,8 +646,7 @@ footer {
   border-top: 1px solid var(--line);
 }
 
-.service-row > span,
-.award time {
+.service-row > span {
   color: var(--blue);
   font-size: 0.68rem;
   font-weight: 800;
@@ -655,27 +654,9 @@ footer {
   text-transform: uppercase;
 }
 
-.service-row p,
-.award p {
+.service-row p {
   margin: 0;
   font-size: 0.84rem;
-}
-
-.awards-card {
-  grid-column: 1 / -1;
-}
-
-.award {
-  display: grid;
-  grid-template-columns: 92px minmax(0, 1fr);
-  gap: 1rem;
-  padding: 0.9rem 0;
-  border-top: 1px solid var(--line);
-}
-
-.award p span {
-  color: var(--muted);
-  font-size: 0.74rem;
 }
 
 .closing {
@@ -898,8 +879,7 @@ footer p {
     background: transparent;
   }
 
-  .service-card,
-  .awards-card {
+  .service-card {
     grid-column: auto;
   }
 
@@ -937,8 +917,7 @@ footer p {
   }
 
   .timeline-item,
-  .service-row,
-  .award {
+  .service-row {
     grid-template-columns: 1fr;
     gap: 0.4rem;
   }
